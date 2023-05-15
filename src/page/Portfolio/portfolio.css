@@ -1,0 +1,65 @@
+.portfolio {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.portfolio h1 {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.portfolio-post {
+    position: relative;
+    height: 150px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.portfolio-post img {
+    width: 100%;
+}
+
+.post-title {
+    position: absolute;
+    transition: .7s;
+
+}
+.post-title .span{
+    transition: .3s;
+    opacity: .0;
+
+}
+.portfolio-post:hover span {
+    background-color: coral;
+    padding: 100px;
+    transition: .5s;
+    opacity: 1;
+  
+}
+
+ .post-title {
+    /* position: absolute;
+    background-color: coral;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    transition: .3s;
+    text-align: center; */
+
+}

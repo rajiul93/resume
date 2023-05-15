@@ -1,0 +1,75 @@
+.about {
+    background-color: #222222;
+    /* height: 100%; */
+}
+
+.about-title {
+    padding-top: 50px;
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.about-personal-info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 1024px;
+    margin: 0 auto;
+
+}
+
+.info-profile {
+    display: flex;
+    gap: 20px;
+}
+
+.info-image {
+    border: 4px solid #ca8d08;
+    width: 400px;
+}
+
+.info-profile-details div {
+    display: flex;
+    gap: 30px;
+}
+
+.info-profile-details p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+}
+
+
+.education-container{
+    justify-content: center;
+    /* width: 1024px;
+    margin: 0 auto; */
+}
+.education {
+    justify-content: center;
+    width: 360px;
+    position: relative;
+}
+
+.education span {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    transform: translate(-12px, -25px);
+    z-index: 2;
+}
+
+.education-1 {
+    min-height: 200px;
+    border-left: 1px solid white;
+}
+.personal_container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

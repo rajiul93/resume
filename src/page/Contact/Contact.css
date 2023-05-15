@@ -1,0 +1,61 @@
+.contact {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    font-weight: 900;
+    font-size: 52px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.contact ul {
+    width: 340px;
+}
+
+.contact ul li {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 35% 70%;
+    gap: 5%;
+}
+
+.content-container-2 {
+    color: white;
+}
+
+.content-container-2 input {
+    border: 1px solid grey;
+    background-color: #222222;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    font-size: 18px;
+    outline: 0;
+}
+
+.from-container {
+    display: flex;
+    gap: 10px;
+}
+
+.from-container-2 textarea {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 80%;
+    border: 1px solid grey;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+    outline: 0;
+}
